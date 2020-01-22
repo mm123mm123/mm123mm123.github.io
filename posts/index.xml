@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 码农自我修养</title>
+    <link>http://mm123mm123.github.io/posts/</link>
+    <description>Recent content in Posts on 码农自我修养</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Wed, 22 Jan 2020 21:04:12 +0800</lastBuildDate>
+    
+	<atom:link href="http://mm123mm123.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何用hugo搭建个人博客</title>
+      <link>http://mm123mm123.github.io/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 22 Jan 2020 21:04:12 +0800</pubDate>
+      
+      <guid>http://mm123mm123.github.io/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description> 在雨果官方网站下载安装包进行安装 将雨果安装路径加入PATH变量中 打开gitbash输入hugo version然后显示版本即安装成功 输入hugo new site xxxx.github.io.generator命令,其中xxxx为你的github账户签名 输入cd xxxx.github.io.generator命令进入该目录，输入git init新建本地.git目录 输入git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke命令为博客网站下载主题，然后输入echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml 输入hugo new posts/xxxx.md命令，xxxx为博客标题，新建一篇md格式的文档 在编译器中打开xxxx.github.io.generator目录，找到步骤7中的文档，进行内容编辑 输入hugo server -D开启服务器 在xxxx.github.io.generator下的config.toml文件中进行博客文字类型和网站题目的修改 另外开启一个gitbash输入hugo -D命令在xxxx.github.io.generator目录下生成public目录 最后我们将public放入.gitignore目录中，然后通过命令行在public中新建.git目录，最后将其整体推到在github网站中新建的xxxx.github.io仓库中 在仓库的设置选项中，我们可以找到xxxx.github.io这个网址，即为我们的博客网址  </description>
+    </item>
+    
+  </channel>
+</rss>
